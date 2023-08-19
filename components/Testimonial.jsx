@@ -12,29 +12,14 @@ import { motion } from "framer-motion";
 
 const Testimonial = () => {
   
-
+  
+  
   const settings = {
     dots: true,
     infinite: true, // Set this to true to enable looping
     speed: 500,
-    slidesToShow: 4,
+    slidesToShow: 2,
     slidesToScroll: 1,
-    nextArrow: (
-      <div>
-        <div className="next-slick-arrow">
-          {" "}
-          <GrCaretNext />{" "}
-        </div>
-      </div>
-    ),
-    prevArrow: (
-      <div>
-        <div className="prev-slick-arrow">
-          {" "}
-          <GrCaretPrevious />{" "}
-        </div>
-      </div>
-    ),
     responsive: [
       {
         breakpoint: 1024,

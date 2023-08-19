@@ -37,51 +37,51 @@ export const questions = [
 ];
 
 export const testimonials = [
-  {
-    id: 1,
-    review:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl quis ultrices aliquam lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl quis ultrices aliquam",
-    name: "Kim Jisoo",
-    position: "CEO",
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/9/99/Elon_Musk_Colorado_2022_%28cropped2%29.jpg",
-  },
-  {
-    id: 2,
-    review:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl quis ultrices aliquam lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl quis ultrices aliquam",
-    name: "Kim Jennie",
-    position: "CEO",
-    image:
-      "https://upload.wikimedia.org/wikipedia/commons/1/18/Mark_Zuckerberg_F8_2019_Keynote_%2832830578717%29_%28cropped%29.jpg",
-  },
-  {
-    id: 3,
-    review:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl quis ultrices aliquam lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl quis ultrices aliquam",
-    name: "Rose",
-    position: "CEO",
-    image:
-      "https://fcb-abj-pre.s3.amazonaws.com/img/jugadors/MESSI.jpg",
-  },
-  {
-    id: 4,
-    review:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl quis ultrices aliquam lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl quis ultrices aliquam",
-    name: "Lisa",
-    position: "CEO",
-    image:
-      "https://www.planetsport.com/image-library/square/500/d/david-beckham-england-profile.jpg",
-  },
-  {
-    id: 5,
-    review:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl quis ultrices aliquam lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl quis ultrices aliquam",
-    name: "Lisa",
-    position: "CEO",
-    image:
-      "https://img.jagranjosh.com/imported/images/E/GK/jack-ma-biography.jpg",
-  },
+  // {
+  //   id: 1,
+  //   review:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl quis ultrices aliquam lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl quis ultrices aliquam",
+  //   name: "Kim Jisoo",
+  //   position: "CEO",
+  //   image:
+  //     "https://upload.wikimedia.org/wikipedia/commons/9/99/Elon_Musk_Colorado_2022_%28cropped2%29.jpg",
+  // },
+  // {
+  //   id: 2,
+  //   review:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl quis ultrices aliquam lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl quis ultrices aliquam",
+  //   name: "Kim Jennie",
+  //   position: "CEO",
+  //   image:
+  //     "https://upload.wikimedia.org/wikipedia/commons/9/99/Elon_Musk_Colorado_2022_%28cropped2%29.jpg",
+  // },
+  // {
+  //   id: 3,
+  //   review:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl quis ultrices aliquam lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl quis ultrices aliquam",
+  //   name: "Rose",
+  //   position: "CEO",
+  //   image:
+  //     "https://upload.wikimedia.org/wikipedia/commons/9/99/Elon_Musk_Colorado_2022_%28cropped2%29.jpg",
+  // },
+  // {
+  //   id: 4,
+  //   review:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl quis ultrices aliquam lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl quis ultrices aliquam",
+  //   name: "Lisa",
+  //   position: "CEO",
+  //   image:
+  //     "https://upload.wikimedia.org/wikipedia/commons/9/99/Elon_Musk_Colorado_2022_%28cropped2%29.jpg",
+  // },
+  // {
+  //   id: 5,
+  //   review:
+  //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl quis ultrices aliquam lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl quis ultrices aliquam",
+  //   name: "Lisa",
+  //   position: "CEO",
+  //   image:
+  //     "https://upload.wikimedia.org/wikipedia/commons/9/99/Elon_Musk_Colorado_2022_%28cropped2%29.jpg",
+  // },
   {
     id: 6,
     review:
@@ -89,7 +89,7 @@ export const testimonials = [
     name: "Lisa",
     position: "CEO",
     image:
-      "https://assets.entrepreneur.com/content/3x2/2000/20150224165308-jeff-bezos-amazon.jpeg",
+      "https://upload.wikimedia.org/wikipedia/commons/9/99/Elon_Musk_Colorado_2022_%28cropped2%29.jpg",
   },
   {
     id: 7,
@@ -98,7 +98,7 @@ export const testimonials = [
     name: "Lisa",
     position: "CEO",
     image:
-      "https://pbs.twimg.com/profile_images/1674815862879178752/nTGMV1Eo_400x400.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/9/99/Elon_Musk_Colorado_2022_%28cropped2%29.jpg",
   },
   {
     id: 8,
@@ -107,7 +107,7 @@ export const testimonials = [
     name: "Lisa",
     position: "CEO",
     image:
-      "https://s.hs-data.com/bilder/spieler/gross/142105.jpg",
+      "https://upload.wikimedia.org/wikipedia/commons/9/99/Elon_Musk_Colorado_2022_%28cropped2%29.jpg",
   },
 ];
 
@@ -128,3 +128,36 @@ export const services = [
   { id: 14, name: "Anzure", icon: "/service4.png" },
   { id: 15, name: "Bing", icon: "/service5.png" },
 ];
+
+export const portfolio=[
+  {
+      id:1,
+      title:'Am Cheachamroeun',
+      type:'ui/ux',
+      desc:"I’ve contributed to many Web designs and used my experience to contribute with the projects.",
+      imageUrl:"https://cdn.dribbble.com/users/4189231/screenshots/17343305/media/202173138f9504c2eacd16e70698312c.png?compress=1&resize=400x300"
+  },
+  {
+      id:4,
+      title:'Ros Sereyvann',
+      type:'website',
+      desc:"I’ve contributed to many Web designs and used my experience to contribute with the projects.",
+      imageUrl:"https://miro.medium.com/max/1400/0*GWvV5kcuVATUfs2r.png"
+  },
+  {
+      id:2,
+      title:'Neav Kimpor',
+      type:'mobile',
+      desc:"I’ve contributed to many Web designs and used my experience to contribute with the projects.",
+      imageUrl:"https://www.radiustheme.com/wp-content/uploads/2022/05/Directory-app.png"
+  },
+  {
+      id:3,
+      title:'Seak Kimhour',
+      type:'ui/ux',
+      desc:"I’ve contributed to many Web designs and used my experience to contribute with the projects.",
+      imageUrl:"https://cdn.dribbble.com/users/2892962/screenshots/14273462/nlytical_mockup_4x.png"
+  },
+
+  
+]

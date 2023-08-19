@@ -44,21 +44,21 @@ const Navbar = () => {
           Logo
         </div>
 
-        <ul className="md:flex gap-4 px-4 hidden transition-all duration-300">
+        <ul className="lg:flex gap-10 px-4 hidden transition-all duration-300">
           <li>
-            <a href="/">Home</a>
+            <a href="/#home">Home</a>
           </li>
           <li>
-            <a href="#gallery">Explore Job</a>
+            <a href="#explorejob">Explore Job</a>
           </li>
           <li>
-            <a href="#deals">For Startups</a>
+            <a href="#startup">For Startups</a>
           </li>
           <li>
-            <a href="#contact">How it Works</a>
+            <a href="#howitwork">How it Works</a>
           </li>
           <li>
-            <a href="#contact">FAQs</a>
+            <a href="#faq">FAQs</a>
           </li>
           <li>
             <a href="#contact">Contact</a>
@@ -66,11 +66,11 @@ const Navbar = () => {
         </ul>
 
         <div className="flex items-center gap-5 mr-2">
-          <button className="text-primary1 shadow-lg rounded-md py-1 px-2 bg-white transition-all duration-500 from-primary to-secondary hover:bg-blend-darken">
+          <button className="text-primary1 shadow-lg rounded-md py-1 px-2 md:px-4 bg-white transition-all duration-500 from-primary to-secondary hover:bg-blend-darken">
             Login
           </button>
 
-          <button className="text-primary1 shadow-lg rounded-md py-1 px-2 bg-white transition-all duration-500 from-primary to-secondary hover:bg-blend-darken">
+          <button className="text-primary1 shadow-lg rounded-md py-1 px-2 md:px-4 bg-white transition-all duration-500 from-primary to-secondary hover:bg-blend-darken">
             Signup
           </button>
 
@@ -79,7 +79,7 @@ const Navbar = () => {
             onClick={() => {
               setToggle(!toggle);
             }}
-            className="md:hidden z-10"
+            className="lg:hidden z-10"
           >
             <FaBars size={25} className="mr-4 text-Teal cursor-pointer" />
           </div>
@@ -96,19 +96,19 @@ const Navbar = () => {
         >
           <ul className="h-full w-full flex flex-col items-center justify-center text-center pt-12 text-white">
             <li className="py-8">
-              <a href="/">Home</a>
+              <a href="/#home">Home</a>
             </li>
             <li className="py-8">
-              <a href="/">Explore Job</a>
+              <a href="/#explorejob">Explore Job</a>
             </li>
             <li className="py-8">
-              <a href="#gallery">For Startups</a>
+              <a href="#startup">For Startups</a>
             </li>
             <li className=" py-8">
-              <a href="#deals">How it Works</a>
+              <a href="#howitwork">How it Works</a>
             </li>
             <li className=" py-8">
-              <a href="#contact">FAQs</a>
+              <a href="#faq">FAQs</a>
             </li>
             <li className=" py-8">
               <a href="#contact">Contact</a>

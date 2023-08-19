@@ -10,3 +10,31 @@
     color: #000000;
     font-size: 25px;
   }
+
+  /* style.css */
+/* Add custom styles to the dots within the custom-slider class */
+.custom-slider .slick-dots li button:before {
+  content: "•"; /* Change this to the desired character or style for the dots */
+  font-size: 14px; /* Adjust the font size as needed */
+  color: #3E64FF; /* Change this to the desired color for the dots */
+  opacity: 0.6; /* Adjust the opacity as needed */
+  transition: all 0.3s ease;
+  margin-top: 30px;
+}
+
+.custom-slider .slick-dots li.slick-active button:before {
+  color: #2A48CC; /* Change this to the desired color for active dots */
+  opacity: 1; /* Increase opacity for active dots */
+}
+
+/* style.css */
+.border-dashed-long {
+  border: 2px solid transparent; /* Set a transparent border to define the spacing */
+  border-image: linear-gradient(0deg, #3E64FF 50%, transparent 0); /* Set the linear gradient to create dashes */
+  border-image-source: repeating-linear-gradient(
+    0deg,
+    #3E64FF,
+    #3E64FF 10px, /* Adjust this value to control the length of the dashes */
+    transparent 0
+  );
+}

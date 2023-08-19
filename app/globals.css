@@ -3,11 +3,25 @@
 @tailwind components;
 @tailwind utilities;
 
+.ReactCollapse--collapse {
+  transition: height 500ms;
+}
+
 @layer base {
+  html {
+    @apply scroll-smooth
+  }
+
     .section {
       @apply container mx-auto mt-32 px-6 
+    }
+
+    .section1{
+      @apply container mx-auto px-10 
     }
     .animate-slide:hover {
       animation-play-state: paused;
     }
+
+    
   }

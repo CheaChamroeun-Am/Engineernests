@@ -4,10 +4,15 @@ module.exports = {
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
-    "./node_modules/tw-elements/dist/js/**/*.js",
   ],
   theme: {
     extend: {
+      backgroundImage : {
+        covers : "url('/cover.png')",
+      },
+      backgroundColor : {
+        'gradient-color' : 'rgba(250, 244, 244, 0.5)',
+      },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
       },
@@ -15,11 +20,9 @@ module.exports = {
         bg: "#F3F6FF",
         primary1: "#3E64FF",
         primary2: "#1C2D73",
+        primary3 : "#483EB5"
       },
     },
     darkMode: "class",
   },
-  darkMode: "class",
-  plugins: [require("tw-elements/dist/plugin.cjs")]
-  
 };

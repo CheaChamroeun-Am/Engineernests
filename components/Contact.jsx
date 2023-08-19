@@ -2,12 +2,12 @@ import { FiSend } from "react-icons/fi";
 
 const Contact = () => {
   return (
-    <div className="section">
-      <h1 className="text-center text-primary2 text-4xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold leading-tight uppercase">
+    <div className="section" id="contact">
+      <h1 className="text-center text-primary2 text-3xl md:text-3xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold leading-tight uppercase">
         Contact
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-10">
-        <div>
+        <div className="mr-10">
           <label className="font-bold text-primary2">FullName</label>
           <input
             type="text"
@@ -28,7 +28,7 @@ const Contact = () => {
             placeholder="Phone E-mail*"
           />
         </div>
-        <div>
+        <div className="mr-10">
           <label className="font-bold text-primary2">Phone</label>
           <input
             type="number"
@@ -61,7 +61,7 @@ const Contact = () => {
         </div>
 
         <div className="col-span-1 md:col-span-2 mx-auto">
-          <button className="bg-primary1 hover:bg-[#2A48CC] transition-all duration-500 rounded-md text-white px-6 py-5 rounded flex items-center gap-3">
+          <button className="bg-primary1 hover:bg-[#2A48CC] transition-all duration-500 rounded-md text-white px-6 py-5  flex items-center gap-3">
             Send Message{" "}
             <span className="text-xl">
               <FiSend />

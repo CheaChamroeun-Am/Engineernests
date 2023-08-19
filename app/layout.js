@@ -13,7 +13,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className='font-poppins bg-bg'>
+      <body data-gr-c-s-loaded attribute="true" className='font-poppins bg-bg' >
       <Navbar/>
       {children}
       <Footer/>
