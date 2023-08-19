@@ -2,6 +2,7 @@
 
 import { Carousel } from "flowbite-react";
 import React from "react";
+import "./style.css"
 
 const HowItWork = () => {
   const boxs = [
@@ -38,13 +39,13 @@ const HowItWork = () => {
       </h1>
       <div className="section1">
 
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-5 mt-10 items-center">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-20 items-center">
         <div className="col-span-2">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-7 items-center">
-            {boxs.map((box) => (
-              <div key={box.id} className="relative">
-                <div className="border-dashed border-primary1 border-4 p-4 rounded-lg relative w-full lg:h-full h-56">
-                  <div className="font-bold text-xl absolute -top-5 -left-4 bg-primary1 text-white w-10 h-10 flex items-center justify-center rounded-full">
+            {boxs.map((box, index) => (
+              <div key={box.id} className={`relative ${index >= 2 ? 'mt-0 md:mt-10' : ''}`}>
+                <div className="border-dashed-customized mx-auto border-primary3 rounded-2xl relative w-[90%] lg:h-full h-56">
+                  <div className="font-bold text-xl absolute -top-6 -left-6 bg-primary3 text-white w-14 h-14 flex items-center justify-center rounded-full">
                     {box.id}
                   </div>
                   <h3 className="font-bold text-primary2 text-lg">
@@ -58,16 +59,16 @@ const HowItWork = () => {
             ))}
           </div>
         </div>
-        <div className="col-span-1">
-          <div className="mx-auto">
-            <div className="bg-primary1 border border-primary1 text-white rounded-lg shadow-md p-6">
+        <div className="col-span-1 mx-auto">
+          <div>
+            <div className="bg-primary3 border border-primary1 text-white rounded-lg shadow-md h-[400px] w-[300px]  p-6">
               <img
-                src="image-url.jpg" // Replace with your image URL
+                src="./howitwork.png" // Replace with your image URL
                 alt="Card Image"
-                className="w-full h-32 object-cover rounded-md mb-4"
+                className="w-24 h-24 object-cover rounded-md mb-4 mt-10 mx-auto"
               />
 
-              <p className="mt-2 text-center ">
+              <p className="mt-10 text-center ">
                 Engineers + Startups: Fueling Growth Together
               </p>
               <div className="text-center mt-10">

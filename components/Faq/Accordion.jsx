@@ -13,7 +13,7 @@ const Accordion = ({ open, toggle, title, answer }) => {
         className="bg-white py-[25px] px-[10px] flex justify-between items-center cursor-pointer"
       >
         <div className="flex gap-5 items-center">
-          <div className="me-3 bg-primary1 rounded-full p-1 text-white">
+          <div className="me-3 bg-primary3 rounded-full p-1 text-white">
             <FaQuestion />
           </div>
           <div className="font-bold text-primary2">{title}</div>

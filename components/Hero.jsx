@@ -10,7 +10,7 @@ const Hero = () => {
         <h1 className="text-center text-primary1 text-4xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold leading-tight uppercase">
           Engineernest
         </h1>
-        <p className="text-center mt-10 text-primary2 text-lmd md:text-lg lg:text-xl xl:text-2xl whitespace-normal">
+        <p className="text-center mt-10 text-primary2 font-semibold text-md md:text-lg lg:text-xl xl:text-xl whitespace-normal">
           Find Top Engineers for Side Jobs and Diverse Projects.
         </p>
 
@@ -18,7 +18,7 @@ const Hero = () => {
           <button className="text-white rounded-md py-5 px-10 bg-[#3E64FF] hover:bg-[#2A48CC] transition-all duration-500 from-primary to-secondary hover:bg-blend-darken">
             Explore Side Jobs
           </button>
-          <button className="border border-primary1 text-primary1 hover:bg-primary1 hover:text-white transition-colors duration-500 rounded-md py-5 px-10 ">
+          <button className="border bg-white border-primary1 text-primary1 hover:bg-primary1 hover:text-white transition-colors duration-500 rounded-md py-5 px-10 ">
             Find Top Engineers
           </button>
         </div>

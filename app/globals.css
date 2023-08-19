@@ -13,7 +13,7 @@
   }
 
     .section {
-      @apply container mx-auto mt-32 px-6 
+      @apply container mx-auto mt-40 px-6 
     }
 
     .section1{

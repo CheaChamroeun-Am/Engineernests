@@ -57,7 +57,7 @@ const Question = () => {
     <div className="section" id="faq">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
         <div className="flex flex-col gap-16">
-          <h1 className="text-center text-primary2 text-4xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl font-bold leading-tight uppercase">
+          <h1 className="text-center text-primary2 text-3xl md:text-3xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold leading-tight uppercase">
             Got Question?
           </h1>
           <div className="mx-auto">

@@ -6,7 +6,7 @@ const Contact = () => {
       <h1 className="text-center text-primary2 text-3xl md:text-3xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold leading-tight uppercase">
         Contact
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-10">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-20">
         <div className="mr-10">
           <label className="font-bold text-primary2">FullName</label>
           <input

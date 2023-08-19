@@ -52,7 +52,7 @@ const ExploreJob = () => {
         Explore Jobs
       </h1>
       <div className="section1">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 mt-10">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 mt-20">
           {jobs.map((job, index) => (
             <div
               key={job.id}
