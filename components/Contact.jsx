@@ -3,11 +3,15 @@ import { FiSend } from "react-icons/fi";
 const Contact = () => {
   return (
     <div className="section" id="contact">
-      <h1 className="text-center text-primary2 text-3xl md:text-3xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold leading-tight uppercase">
+      <h1
+        data-aos="fade-right"
+        data-aos-duration="1000"
+        className="text-center text-primary2 text-3xl md:text-3xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold leading-tight uppercase"
+      >
         Contact
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5 mt-20">
-        <div className="mr-10">
+        <div className="mr-0 lg:mr-10">
           <label className="font-bold text-primary2">FullName</label>
           <input
             type="text"
@@ -28,7 +32,7 @@ const Contact = () => {
             placeholder="Phone E-mail*"
           />
         </div>
-        <div className="mr-10">
+        <div className="mr-0 lg:mr-10">
           <label className="font-bold text-primary2">Phone</label>
           <input
             type="number"

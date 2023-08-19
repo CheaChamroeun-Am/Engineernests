@@ -11,10 +11,8 @@ import "./style.css";
 import { motion } from "framer-motion";
 
 const Testimonial = () => {
-  
-  
-  
   const settings = {
+    arrows: false,
     dots: true,
     infinite: true, // Set this to true to enable looping
     speed: 500,
@@ -73,9 +71,9 @@ const Testimonial = () => {
   return (
     <div className="section">
       <p className="text-primary1 text-center font-bold">Testimonial</p>
-      <h4 className="text-primary2 text-lg text-center font-bold">
+      <h2 className="text-primary2 text-lg text-center font-bold">
         What Our Clients Say About Us
-      </h4>
+      </h2>
 
       <div className="mt-10">
         <div className="md:max-w-[1480px] m-auto max-w-[600px] px-4 mt-16 md:px-0">
@@ -84,11 +82,15 @@ const Testimonial = () => {
               <div key={testimonial.id}>
                 <div className="mr-2 bg-white border border-primary1 rounded-lg shadow-md p-6">
                   <BiSolidQuoteLeft className="text-primary1 text-2xl" />
-                  <p>{testimonial.review}</p>
+                  <p className="testtimonial-review">{testimonial.review}</p>
                   <div className="grid grid-cols-2 gap-2 items-center mt-7">
                     <div className="flex flex-col gap-1">
-                      <p className="font-bold">{testimonial.name}</p>
-                      <p className="text-primary1">{testimonial.position}</p>
+                      <p className="font-bold testtimonial-name">
+                        {testimonial.name}
+                      </p>
+                      <p className="text-primary1 testtimonial-position">
+                        {testimonial.position}
+                      </p>
                     </div>
                     <div>
                       <img
@@ -106,17 +108,17 @@ const Testimonial = () => {
       </div>
 
       <motion.div
-          variants={container}
-          initial="hidden"
-          whileInView="visible"
-          className="flex items-center justify-center flex-wrap gap-8 p-2 mt-20"
-        >
-          {services.map((service, index) => (
-            <motion.div variants={item} className="w-28" key={index}>
-              <img src={service.icon} alt="" className="w-full object-cover" />
-            </motion.div>
-          ))}
-        </motion.div>
+        variants={container}
+        initial="hidden"
+        whileInView="visible"
+        className="flex items-center justify-center flex-wrap gap-8 p-2 mt-20"
+      >
+        {services.map((service, index) => (
+          <motion.div variants={item} className="w-28" key={index}>
+            <img src={service.icon} alt="" className="w-full object-cover" />
+          </motion.div>
+        ))}
+      </motion.div>
 
       {/* <div className="mt-20">
         <div className="grid grid-cols-3 md:grid-cols-5">

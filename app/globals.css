@@ -25,3 +25,82 @@
 
     
   }
+
+  [data-theme="dark"] .bg-bg{
+    @apply bg-gray-900
+  }
+
+  [data-theme="dark"] .slick-dots li button:before{
+    @apply text-white
+  }
+
+  [data-theme="dark"] .li.slick-active button:before{
+    @apply text-primary3
+  }
+  
+ 
+
+  [data-theme="dark"] p{
+    @apply text-white
+  }
+
+  [data-theme="dark"] h1{
+    @apply text-white
+  }
+
+  [data-theme="dark"] h2{
+    @apply text-white
+  }
+
+  /* Hero */
+  [data-theme="dark"] .hero-text1{
+    @apply text-primary2
+  }
+  [data-theme="dark"] .hero-text2{
+    @apply text-primary1
+  }
+  [data-theme="dark"] .hero-text3{
+    @apply text-primary3
+  }
+
+  /* Startup */
+  [data-theme="dark"] .project-title{
+    @apply text-black
+  }
+
+  [data-theme="dark"] .project-desc{
+    @apply text-black
+  }
+
+
+  /* How It work */
+  [data-theme="dark"] .howitworks-title{
+    @apply text-white
+  }
+
+  /* Testmonial */
+  [data-theme="dark"] .testtimonial-review{
+    @apply text-black
+  }
+
+  [data-theme="dark"] .testtimonial-name{
+    @apply text-black
+  }
+
+  [data-theme="dark"] .testtimonial-position{
+    @apply text-primary2
+  }
+
+  /* Faq */
+  [data-theme="dark"] .faq-answer{
+    @apply text-black
+  }
+
+  [data-theme="dark"] .faq-icon{
+    @apply text-black
+  }
+
+  /* Contact */
+  [data-theme="dark"] label{
+    @apply text-white
+  }

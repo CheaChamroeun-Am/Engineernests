@@ -1,13 +1,18 @@
-"use client"
+"use client";
 
 import React from "react";
 import { useState, useEffect } from "react";
 import { AiOutlineClose } from "react-icons/ai";
 import { FaBars } from "react-icons/fa";
 
+import { useTheme } from "next-themes";
+import { FaMoon, FaSun } from "react-icons/fa";
+
+
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   const [active, setActive] = useState(null);
+  const { theme, setTheme } = useTheme();
 
   const handleNav = () => {
     setToggle(!toggle);
@@ -38,7 +43,7 @@ const Navbar = () => {
       <div
         className={`${
           active ? "py-4 transition-all duration-300" : "py-4"
-        } w-full bg-primary1 min-h-[50px] flex justify-between text-white items-center`}
+        } w-full px-3 bg-primary1 min-h-[50px] flex justify-between text-white items-center`}
       >
         <div className="px-4 text-xl text-Teal uppercase tracking-wide font-bold">
           Logo
@@ -66,6 +71,20 @@ const Navbar = () => {
         </ul>
 
         <div className="flex items-center gap-5 mr-2">
+          {theme === "dark" ? (
+            <FaSun
+              size={25}
+              cursor="pointer"
+              onClick={() => setTheme("light")}
+            />
+          ) : (
+            <FaMoon
+              size={25}
+              cursor="pointer"
+              onClick={() => setTheme("dark")}
+            />
+          )}
+
           <button className="text-primary1 shadow-lg rounded-md py-1 px-2 md:px-4 bg-white transition-all duration-500 from-primary to-secondary hover:bg-blend-darken">
             Login
           </button>

@@ -19,12 +19,12 @@ const Accordion = ({ open, toggle, title, answer }) => {
           <div className="font-bold text-primary2">{title}</div>
         </div>
 
-        <div>{open ? <AiOutlineMinus /> : <AiOutlinePlus />}</div>
+        <div className="faq-icon">{open ? <AiOutlineMinus /> : <AiOutlinePlus />}</div>
       </div>
 
       <Collapse isOpened={open}>
         <div className="bg-white px-[50px] pb-[20px]">
-          <p>{answer}</p>
+          <p className="faq-answer">{answer}</p>
         </div>
       </Collapse>
     </div>

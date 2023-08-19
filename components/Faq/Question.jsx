@@ -51,34 +51,33 @@ const Question = () => {
     }
 
     setOpen(index);
-  }
+  };
 
   return (
     <div className="section" id="faq">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
         <div className="flex flex-col gap-16">
-          <h1 className="text-center text-primary2 text-3xl md:text-3xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold leading-tight uppercase">
+          <h1
+            data-aos="fade-right"
+            data-aos-duration="1000"
+            className="text-center text-primary2 text-3xl md:text-3xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold leading-tight uppercase"
+          >
             Got Question?
           </h1>
           <div className="mx-auto">
-            <img
-              src="/question.png"
-              className="object-cover w-[300px]"
-            />
+            <img src="/question.png" className="object-cover w-[300px]" />
           </div>
         </div>
         <div>
-          {
-            questions.map((question, index) => (
-              <Accordion
-                key={question.id}
-                title={question.question}
-                answer={question.answer}
-                open={open === index}
-                toggle={() => toggle(index)}
-              />
-            ))
-          }
+          {questions.map((question, index) => (
+            <Accordion
+              key={question.id}
+              title={question.question}
+              answer={question.answer}
+              open={open === index}
+              toggle={() => toggle(index)}
+            />
+          ))}
         </div>
       </div>
     </div>

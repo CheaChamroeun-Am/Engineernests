@@ -54,19 +54,19 @@ const Footer = () => {
 
             <ul className="flex flex-wrap gap-10 mt-10 text-white">
               <li>
-                <a href="/">Home</a>
+                <a href="/#home">Home</a>
               </li>
               <li>
-                <a href="/">Explore Jobs</a>
+                <a href="/#explorejob">Explore Jobs</a>
               </li>
               <li>
-                <a href="/">For Startups</a>
+                <a href="/#startup">For Startups</a>
               </li>
               <li>
-                <a href="/">How it Works</a>
+                <a href="/#howitwork">How it Works</a>
               </li>
               <li>
-                <a href="/">Contact</a>
+                <a href="/#contact">Contact</a>
               </li>
             </ul>
           </div>
