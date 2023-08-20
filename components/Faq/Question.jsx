@@ -10,35 +10,35 @@ const Question = () => {
       id: 1,
       question: "What is Engineernest?",
       answer:
-        "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl quis ultrices aliquam lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl quis ultrices aliquam",
+        "Engineernest is a platform that bridges the gap between engineers seeking side jobs and startups looking for engineering talent. It's a space where engineers can earn extra income while expanding their portfolios, and startups can find the expertise they need without the commitment of full-time hires.",
       element: "element1",
     },
     {
       id: 2,
-      question: "What kind of projects can I find on the platform?",
+      question: "Who can join Engineernest?",
       answer:
-        "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl quis ultrices aliquam lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl quis ultrices aliquam",
+        "Both engineers with diverse technical skills and startups seeking engineering expertise are welcome to join our platform. Whether you're an experienced engineer looking for exciting projects or a startup in need of top talent, you'll find a place here.",
       element: "element2",
     },
     {
       id: 3,
-      question: "Who can join Engineernest?",
+      question: "What kind of projects can I find on the platform?",
       answer:
-        "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl quis ultrices aliquam lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl quis ultrices aliquam",
+        " Our platform hosts a variety of projects across different industries and technical domains. From software development and design to engineering solutions, you'll discover a range of projects that align with your skills and interests.",
       element: "element3",
     },
     {
       id: 4,
       question: "How can I get support if I have questions?",
       answer:
-        "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl quis ultrices aliquam lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl quis ultrices aliquam",
+        "We're here to help! If you have any questions, concerns, or need assistance, feel free to reach out to our support team. You can find our contact information on the Contact Us page, and we'll get back to you promptly.",
       element: "element4",
     },
     {
       id: 5,
       question: "Ready to get started?",
       answer:
-        "lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl quis ultrices aliquam lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl quis ultrices aliquam",
+        "Absolutely! Join Engineernest today and embark on a journey of collaboration, innovation, and growth. Whether you're an engineer looking for exciting opportunities or a startup seeking engineering talent, we're here to connect you.",
       element: "element5",
     },
   ];

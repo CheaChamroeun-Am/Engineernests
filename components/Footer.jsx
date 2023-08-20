@@ -74,7 +74,7 @@ const Footer = () => {
 
         <div className="col-span-1 mx-auto flex">
           <button className="text-primary rounded-md py-2 px-10 bg-white transition-all duration-500 from-primary to-secondary hover:bg-blend-darken">
-            Contact Us
+            <span className="footer-text">Contact Us</span>
           </button>
         </div>
       </div>

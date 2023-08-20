@@ -10,7 +10,7 @@ const Accordion = ({ open, toggle, title, answer }) => {
     <div className="pt-[10px]">
       <div
         onClick={toggle}
-        className="bg-white py-[25px] px-[10px] flex justify-between items-center cursor-pointer"
+        className="bg-white rounded-md py-[25px] px-[10px] flex justify-between items-center cursor-pointer"
       >
         <div className="flex gap-5 items-center">
           <div className="me-3 bg-primary3 rounded-full p-1 text-white">

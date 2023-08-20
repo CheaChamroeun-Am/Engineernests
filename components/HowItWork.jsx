@@ -44,13 +44,13 @@ const HowItWork = () => {
       <div className="section1">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 mt-20 items-center">
           <div className="col-span-2">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-7 items-center">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-7 items-center">
               {boxs.map((box, index) => (
                 <div
                   key={box.id}
-                  className={`relative ${index >= 2 ? "mt-0 md:mt-10" : ""}`}
+                  className={`relative ${index >= 2 ? "mt-0 lg:mt-10" : ""}`}
                 >
-                  <div className="border-dashed-customized mx-auto border-primary3 rounded-2xl relative w-[90%] lg:h-full h-56">
+                  <div className="border-dashed-customized mx-auto border-primary3 rounded-2xl relative w-[90%] 2xl:h-[150px] xl:h-[195px] lg:h-[270px] md:h-[165px] sm:h-[165px] h-full">
                     <div className="font-bold text-xl absolute -top-6 -left-6 bg-primary3 text-white w-14 h-14 flex items-center justify-center rounded-full">
                       {box.id}
                     </div>
@@ -67,7 +67,7 @@ const HowItWork = () => {
           </div>
           <div className="col-span-1 mx-auto">
             <div>
-              <div className="bg-primary3 border border-primary1 text-white rounded-lg shadow-md h-[400px] w-[300px]  p-6">
+              <div className="bg-primary3 border border-primary1 text-white rounded-lg shadow-md h-[400px] w-[300px] md:w-[250px]  p-6">
                 <img
                   src="./howitwork.png" // Replace with your image URL
                   alt="Card Image"

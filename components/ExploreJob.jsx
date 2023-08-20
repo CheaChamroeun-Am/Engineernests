@@ -132,7 +132,7 @@ const ExploreJob = () => {
             >
               <div
                 key={job.id}
-                className="cursor-pointer bg-white border border-primary3 rounded-lg shadow-md p-6 hover:bg-primary1 text-primary2 hover:text-white transition duration-500 ease-in-out"
+                className="cursor-pointer h-[200px] bg-white border border-primary3 rounded-lg shadow-md py-6 hover:bg-primary1 text-primary2 hover:text-white transition duration-500 ease-in-out"
                 onMouseEnter={() => handleMouseEnter(index)}
                 onMouseLeave={() => handleMouseLeave(index)}
               >

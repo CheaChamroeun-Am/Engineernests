@@ -8,7 +8,6 @@ import { FaBars } from "react-icons/fa";
 import { useTheme } from "next-themes";
 import { FaMoon, FaSun } from "react-icons/fa";
 
-
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   const [active, setActive] = useState(null);
@@ -36,9 +35,7 @@ const Navbar = () => {
 
   return (
     <div
-      className={`${
-        active ? "shadow-lg bg-primary1" : ""
-      } sticky w-full top-0 left-0 z-20`}
+      className={`${active ? "shadow-lg bg-primary1" : ""} sticky top-0 z-20`}
     >
       <div
         className={`${
@@ -49,23 +46,26 @@ const Navbar = () => {
           Logo
         </div>
 
-        <ul className="lg:flex gap-10 px-4 hidden transition-all duration-300">
-          <li>
+        <ul className="lg:flex gap-10 px-4 hidden transition-all duration-500 ">
+          <li className="hover:text-primary2 transition-all duration-500 ">
             <a href="/#home">Home</a>
           </li>
-          <li>
+          <li className="hover:text-primary2 transition-all duration-500">
             <a href="#explorejob">Explore Job</a>
           </li>
-          <li>
+          <li className="hover:text-primary2 transition-all duration-500">
             <a href="#startup">For Startups</a>
           </li>
-          <li>
+          <li className="hover:text-primary2 transition-all duration-500">
             <a href="#howitwork">How it Works</a>
           </li>
-          <li>
+          <li className="hover:text-primary2 transition-all duration-500">
+            <a href="#about">About Us</a>
+          </li>
+          <li className="hover:text-primary2 transition-all duration-500">
             <a href="#faq">FAQs</a>
           </li>
-          <li>
+          <li className="hover:text-primary2 transition-all duration-500">
             <a href="#contact">Contact</a>
           </li>
         </ul>
@@ -98,38 +98,47 @@ const Navbar = () => {
             onClick={() => {
               setToggle(!toggle);
             }}
-            className="lg:hidden z-10"
+            className="lg:hidden z-50"
           >
-            <FaBars size={25} className="mr-4 text-Teal cursor-pointer" />
+            <FaBars size={25} className="mr-4 cursor-pointer" />
           </div>
         </div>
 
         {/* Mobile Menu */}
         <div
           onClick={handleNav}
+          // className={
+          //   toggle
+          //     ? "overflow-y-hidden md:hidden ease-in duration-300 absolute text-gray-300 left-0 top-0 w-full h-screen bg-black/90 px-4 py-7 flex flex-col z-100"
+          //     : "absolute top-0 h-screen left-[-100%] ease-in duration-500"
+          // }
+
           className={
             toggle
-              ? "overflow-y-hidden md:hidden ease-in duration-300 absolute text-gray-300 left-0 top-0 w-full h-screen bg-black/90 px-4 py-7 flex flex-col"
-              : "absolute top-0 h-screen left-[-100%] ease-in duration-500"
+              ? "absolute top-0 left-0 w-full h-screen bg-black/90  transition-transform duration-300 transform translate-x-0"
+              : "absolute top-0 left-[-100%] z-50 transition-transform duration-300 transform translate-x-full"
           }
         >
           <ul className="h-full w-full flex flex-col items-center justify-center text-center pt-12 text-white">
-            <li className="py-8">
+            <li className="py-8 hover:text-primary2 transition-all duration-500">
               <a href="/#home">Home</a>
             </li>
-            <li className="py-8">
+            <li className="py-8 hover:text-primary2 transition-all duration-500">
               <a href="/#explorejob">Explore Job</a>
             </li>
-            <li className="py-8">
+            <li className="py-8 hover:text-primary2 transition-all duration-500">
               <a href="#startup">For Startups</a>
             </li>
-            <li className=" py-8">
+            <li className=" py-8 hover:text-primary2 transition-all duration-500">
               <a href="#howitwork">How it Works</a>
             </li>
-            <li className=" py-8">
+            <li className=" py-8 hover:text-primary2 transition-all duration-500">
+              <a href="#about">About Us</a>
+            </li>
+            <li className=" py-8 hover:text-primary2 transition-all duration-500">
               <a href="#faq">FAQs</a>
             </li>
-            <li className=" py-8">
+            <li className=" py-8 hover:text-primary2 transition-all duration-500">
               <a href="#contact">Contact</a>
             </li>
           </ul>

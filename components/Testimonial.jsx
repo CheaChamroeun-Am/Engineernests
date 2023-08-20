@@ -29,7 +29,7 @@ const Testimonial = () => {
         },
       },
       {
-        breakpoint: 600,
+        breakpoint: 768,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -38,7 +38,7 @@ const Testimonial = () => {
         },
       },
       {
-        breakpoint: 480,
+        breakpoint: 640,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
@@ -76,11 +76,11 @@ const Testimonial = () => {
       </h2>
 
       <div className="mt-10">
-        <div className="md:max-w-[1480px] m-auto max-w-[600px] px-4 mt-16 md:px-0">
+        <div className="md:max-w-[1480px] m-auto  max-w-[600px] px-4 mt-16 md:px-0">
           <Slider {...settings} className="px-5">
             {testimonials.map((testimonial) => (
               <div key={testimonial.id}>
-                <div className="mr-2 bg-white border border-primary1 rounded-lg shadow-md p-6">
+                <div className="mx-4 bg-white border border-primary1 rounded-lg shadow-md p-6">
                   <BiSolidQuoteLeft className="text-primary1 text-2xl" />
                   <p className="testtimonial-review">{testimonial.review}</p>
                   <div className="grid grid-cols-2 gap-2 items-center mt-7">

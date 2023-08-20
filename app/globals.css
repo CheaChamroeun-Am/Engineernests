@@ -52,6 +52,10 @@
     @apply text-white
   }
 
+  [data-theme="dark"] .footer-text{
+    @apply text-black
+  }
+
   /* Hero */
   [data-theme="dark"] .hero-text1{
     @apply text-primary2
@@ -104,3 +108,19 @@
   [data-theme="dark"] label{
     @apply text-white
   }
+
+  
+
+  [data-theme="dark"] .title-v-m{
+    @apply text-white
+  }
+
+  [data-theme="dark"] .story-hr{
+    @apply border-white
+  }
+
+  [data-theme="dark"] .icon{
+    @apply fill-white
+  }
+
+  
