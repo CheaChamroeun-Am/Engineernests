@@ -86,7 +86,7 @@ export const testimonials = [
     id: 6,
     review:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl quis ultrices aliquam lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl quis ultrices aliquam",
-    name: "Lisa",
+    name: "Chamroeun",
     position: "CEO",
     image:
       "https://upload.wikimedia.org/wikipedia/commons/9/99/Elon_Musk_Colorado_2022_%28cropped2%29.jpg",
@@ -95,19 +95,19 @@ export const testimonials = [
     id: 7,
     review:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl quis ultrices aliquam lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl quis ultrices aliquam",
-    name: "Lisa",
-    position: "CEO",
+    name: "John Doe",
+    position: "CTO",
     image:
-      "https://upload.wikimedia.org/wikipedia/commons/9/99/Elon_Musk_Colorado_2022_%28cropped2%29.jpg",
+      "https://imageio.forbes.com/specials-images/imageserve/5c76b7d331358e35dd2773a9/0x0.jpg?format=jpg&crop=4401,4401,x0,y0,safe&height=416&width=416&fit=bounds",
   },
   {
     id: 8,
     review:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl quis ultrices aliquam lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla euismod, nisl quis ultrices aliquam",
-    name: "Lisa",
-    position: "CEO",
+    name: "Sereyvann",
+    position: "CFO",
     image:
-      "https://upload.wikimedia.org/wikipedia/commons/9/99/Elon_Musk_Colorado_2022_%28cropped2%29.jpg",
+      "https://cdn.tatlerasia.com/tatlerasia/i/2022/10/26041847-chew-shou-zi-tiktok_cover_800x800.jpeg",
   },
 ];
 

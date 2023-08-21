@@ -42,8 +42,14 @@ const Navbar = () => {
           active ? "py-4 transition-all duration-300" : "py-4"
         } w-full px-3 bg-primary1 min-h-[50px] flex justify-between text-white items-center`}
       >
-        <div className="px-4 text-xl text-Teal uppercase tracking-wide font-bold">
-          Logo
+        <div className="px-10 text-xl text-Teal uppercase tracking-wide font-bold">
+          <img
+            src="/logo2.png"
+            alt="logo"
+            className="w-20 h-12 object-contain"
+          >
+
+          </img>
         </div>
 
         <ul className="lg:flex gap-10 px-4 hidden transition-all duration-500 ">

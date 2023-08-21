@@ -3,7 +3,6 @@ import React from "react";
 import { useState, useEffect } from "react";
 import { GrFormNext, GrFormPrevious } from "react-icons/gr";
 import "./style.css";
-import { color } from "framer-motion";
 
 const About = () => {
   const textData = [
@@ -21,6 +20,13 @@ const About = () => {
   const [animationClass, setAnimationClass] = useState(
     "transition-opacity duration-500 opacity-100"
   );
+
+  const abouts = [
+    { id: 1, image: "./about1.png" },
+    { id: 2, image: "./about2.png" },
+    { id: 3, image: "./about3.png" },
+    { id: 4, image: "./about4.png" },
+  ];
 
   const handleNext = () => {
     setAnimationClass("opacity-0"); // Trigger fade-out animation
@@ -63,36 +69,18 @@ const About = () => {
         <div className="absolute top-0 right-0 w-72 h-[470px] bg-primary1 z-0 hidden lg:block"></div>
 
         <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-20 z-10 relative w-[92%]">
-          <div className="shadow-md rounded-xl">
-            <img
-              src="https://thumbor.forbes.com/thumbor/fit-in/x/https://www.forbes.com/home-improvement/wp-content/uploads/2022/07/download-23.jpg"
-              alt="test"
-              className="rounded-xl object-cover w-full"
-            />
-          </div>
-          <div className="shadow-md rounded-xl">
-            <img
-              src="https://thumbor.forbes.com/thumbor/fit-in/x/https://www.forbes.com/home-improvement/wp-content/uploads/2022/07/download-23.jpg"
-              alt="test"
-              className="rounded-xl object-cover w-full"
-            />
-          </div>
-
-          <div className="shadow-md rounded-xl">
-            <img
-              src="https://thumbor.forbes.com/thumbor/fit-in/x/https://www.forbes.com/home-improvement/wp-content/uploads/2022/07/download-23.jpg"
-              alt="test"
-              className="rounded-xl object-cover w-full"
-            />
-          </div>
-
-          <div className="shadow-md rounded-xl">
-            <img
-              src="https://thumbor.forbes.com/thumbor/fit-in/x/https://www.forbes.com/home-improvement/wp-content/uploads/2022/07/download-23.jpg"
-              alt="test"
-              className="rounded-xl object-cover w-full"
-            />
-          </div>
+          {abouts.map((about) => (
+            <div
+              key={about.id}
+              className="shadow-md p-5 rounded-xl bg-white hover:shadow-xl transition-all duration-500"
+            >
+              <img
+                src={about.image}
+                alt="test"
+                className="rounded-xl object-cover w-[60%] mx-auto"
+              />
+            </div>
+          ))}
         </div>
 
         {/* Vision and Mission */}
