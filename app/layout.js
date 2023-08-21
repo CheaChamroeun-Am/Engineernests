@@ -2,10 +2,13 @@ import Navbar from "@/components/Navbar";
 import "./globals.css";
 import Footer from "@/components/Footer";
 import { Providers } from "@/components/Providers";
+import Link from "next/link";
+
 
 export const metadata = {
   title: "Engineernest",
   description: "Find Top Engineers for Side Jobs and Diverse Projects.",
+  
 };
 
 export default function RootLayout({ children }) {

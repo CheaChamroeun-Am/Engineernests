@@ -15,10 +15,10 @@ const Hero = () => {
         </p>
 
         <div className="mt-20 flex justify-center flex-wrap gap-5">
-          <button className="text-white rounded-md py-2 px-5 md:py-5 md:px-10 bg-[#3E64FF] hover:bg-[#2A48CC] transition-all duration-500 from-primary to-secondary hover:bg-blend-darken">
+          <button className="text-white rounded-md py-2 px-5 md:py-3 md:px-7 bg-[#3E64FF] hover:bg-[#2A48CC] transition-all duration-500 from-primary to-secondary hover:bg-blend-darken">
             Explore Side Jobs
           </button>
-          <button className="border bg-white py-2 px-5 md:py-5 md:px-10 border-primary1 text-primary1 hover:bg-primary1 hover:text-white transition-colors duration-500 rounded-md  ">
+          <button className="border bg-white py-2 px-5 md:py-3 md:px-7 border-primary1 text-primary1 hover:bg-primary1 hover:text-white transition-colors duration-500 rounded-md  ">
             Find Top Engineers
           </button>
         </div>
