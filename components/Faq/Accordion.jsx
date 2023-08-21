@@ -23,7 +23,7 @@ const Accordion = ({ open, toggle, title, answer }) => {
       </div>
 
       <Collapse isOpened={open}>
-        <div className="bg-white px-[50px] pb-[20px]">
+        <div className="bg-white ml-5 px-[50px] pb-[20px]">
           <p className="faq-answer">{answer}</p>
         </div>
       </Collapse>
