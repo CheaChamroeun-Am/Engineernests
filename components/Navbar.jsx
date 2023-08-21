@@ -13,7 +13,8 @@ const Navbar = () => {
   const [active, setActive] = useState(null);
   const { theme, setTheme } = useTheme();
 
-  const handleNav = () => {
+  const handleNav = (event) => {
+    event.stopPropagation(); // Prevent the event from propagating
     setToggle(!toggle);
   };
 
@@ -112,7 +113,7 @@ const Navbar = () => {
 
         {/* Mobile Menu */}
         <div
-          onClick={handleNav}
+          onClick={(event) => {handleNav}}
           // className={
           //   toggle
           //     ? "overflow-y-hidden md:hidden ease-in duration-300 absolute text-gray-300 left-0 top-0 w-full h-screen bg-black/90 px-4 py-7 flex flex-col z-100"
@@ -121,31 +122,31 @@ const Navbar = () => {
 
           className={
             toggle
-              ? "absolute top-0 left-0 w-full h-screen bg-black/90  transition-transform duration-300 transform translate-x-0"
+              ? "absolute top-0 left-0 w-full h-screen bg-black/90  transition-transform duration-300  transform translate-x-0"
               : "absolute top-0 left-[-100%] z-50 transition-transform duration-300 transform translate-x-full"
           }
         >
           <ul className="h-full w-full flex flex-col items-center justify-center text-center pt-12 text-white">
             <li className="py-8 hover:text-primary2 transition-all duration-500">
-              <a href="/#home">Home</a>
+              <a href="/#home" onClick={handleNav}>Home</a>
             </li>
             <li className="py-8 hover:text-primary2 transition-all duration-500">
-              <a href="/#explorejob">Explore Job</a>
+              <a href="/#explorejob" onClick={handleNav}>Explore Job</a>
             </li>
             <li className="py-8 hover:text-primary2 transition-all duration-500">
-              <a href="#startup">For Startups</a>
+              <a href="#startup" onClick={handleNav}>For Startups</a>
             </li>
             <li className=" py-8 hover:text-primary2 transition-all duration-500">
-              <a href="#howitwork">How it Works</a>
+              <a href="#howitwork" onClick={handleNav}>How it Works</a>
             </li>
             <li className=" py-8 hover:text-primary2 transition-all duration-500">
-              <a href="#about">About Us</a>
+              <a href="#about" onClick={handleNav}>About Us</a>
             </li>
             <li className=" py-8 hover:text-primary2 transition-all duration-500">
-              <a href="#faq">FAQs</a>
+              <a href="#faq" onClick={handleNav}>FAQs</a>
             </li>
             <li className=" py-8 hover:text-primary2 transition-all duration-500">
-              <a href="#contact">Contact</a>
+              <a href="#contact" onClick={handleNav}>Contact</a>
             </li>
           </ul>
         </div>
