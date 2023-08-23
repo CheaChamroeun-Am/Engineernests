@@ -66,7 +66,7 @@ const About = () => {
       </div>
 
       <div className="relative">
-        <div className="absolute top-0 right-0 w-72 h-[470px] bg-primary1 z-0 hidden lg:block"></div>
+        <div className="absolute top-0 right-0 w-72 h-[470px] rounded-l-xl bg-primary1 z-0 hidden lg:block"></div>
 
         <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-20 z-10 relative w-[92%]">
           {abouts.map((about) => (
