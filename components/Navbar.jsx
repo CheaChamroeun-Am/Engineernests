@@ -122,8 +122,8 @@ const Navbar = () => {
 
           className={
             toggle
-              ? "fixed top-0 left-0 w-full h-full bg-black/90 transition-transform duration-300 transform translate-x-0 z-40 overflow-y-scroll"
-              : "fixed top-0 left-full w-full h-full bg-black/90 transition-transform duration-300 transform translate-x-full z-40"
+              ? "fixed top-0 left-0 w-full h-full bg-black/90 transition-all duration-300 z-40 overflow-y-scroll"
+              : "fixed top-0 left-full w-full h-full bg-black/90 transition-all duration-300 z-40"
           }
         >
           <ul className="h-full w-full flex flex-col items-center justify-center text-center pt-12 text-white">
