@@ -114,12 +114,7 @@ const Navbar = () => {
         {/* Mobile Menu */}
         <div
           onClick={(event) => {handleNav}}
-          // className={
-          //   toggle
-          //     ? "overflow-y-hidden md:hidden ease-in duration-300 absolute text-gray-300 left-0 top-0 w-full h-screen bg-black/90 px-4 py-7 flex flex-col z-100"
-          //     : "absolute top-0 h-screen left-[-100%] ease-in duration-500"
-          // }
-
+          
           className={
             toggle
               ? "fixed top-0 left-0 w-full h-full bg-black/90 transition-all duration-300 z-40 overflow-y-scroll"
