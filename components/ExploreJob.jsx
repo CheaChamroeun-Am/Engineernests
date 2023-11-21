@@ -75,7 +75,7 @@ const ExploreJob = () => {
         data-aos-duration="1000"
         className=" text-primary2 text-3xl md:text-3xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-bold leading-tight uppercase"
       >
-        Explore Jobs 🤘
+        Explore Jobs 
       </h1>
       <div className="section1">
         {/* <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10 mt-20">
